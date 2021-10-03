@@ -23,11 +23,11 @@ function MainMenu() {
   ]);
 
   return (
-    <div className="bg-gray-100 p-4 col-span-5">
+    <div className="bg-gray-100 p-4 xl:col-span-5 lg:col-span-2">
       <h1 className="text-lg ml-10">
         Week
       </h1>
-      <div className="grid grid-cols-1 sm:grid-cols-3 md:grid-cols-4 2xl:grid-cols-7 mt-4 w-6/7 m-auto justify-items-center">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 2xl:grid-cols-7 mt-4 w-6/7 m-auto justify-items-center">
         {
           days.map((e) => (
             <Day
